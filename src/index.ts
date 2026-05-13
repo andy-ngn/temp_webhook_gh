@@ -63,7 +63,7 @@ webhooks.onAny(async ({ id, name, payload }) => {
   }
 });
 
-app.use("/api/webhooks", createNodeMiddleware(webhooks));
+app.use(createNodeMiddleware(webhooks, { path: "/api/webhooks" }));
 
 app.use(express.json());
 
