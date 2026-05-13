@@ -1,0 +1,20 @@
+{
+  "name": "temp_github_wh",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.17.14",
+    "@octokit/webhooks": "^14.2.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.7.0",
+    "typescript": "^6.0.3"
+  }
+}
